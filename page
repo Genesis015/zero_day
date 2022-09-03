@@ -42,6 +42,8 @@
             <label for password>Password</label><br>
             <input type="password" placeholder="Password" required name="password"><br><br>
             <button type="submit">Create Account</button>
+            <label type ="text">Already Have Account</label>
+            <button type= "submit"><a href="">Login In</a></button>
         </form>
 
         </field </body>

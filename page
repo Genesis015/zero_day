@@ -1,2 +1,49 @@
-# zero_day
-This is my first repository as a full stack engineer
+<!DOCTYPE html>
+<html metacharset="utf-8">
+<html lang="en">
+<meta name="viewport" content="width=device-width initial-scaling=1">
+
+<head>
+    <title>Sign up</title>
+    <style>
+        form {
+            margin: 15px;
+            padding: 5px;
+            border-spacing: 10px;
+            font-size: 20px;
+        }
+        
+        fieldset {
+            width: 20%;
+            border-radius: 5px;
+            box-shadow: 2px;
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+        
+        a:hover {
+            color: rgb(253, 27, 27);
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <form action="connect.php" method="POST">
+            <p>Sign Up</p>
+            <label for email>Email Address</label><br>
+            <input type="email" placeholder="Email" required name="email"><br><br>
+            <label for firstname>First Name(s)</label><br>
+            <input type="text" placeholder="First Name" required name="fsirstname"><br><br>
+            <label for lastname>Last Name</label><br>
+            <input type="text" placeholder="Last Name" required name="lastname"><br><br>
+            <label for contact>Contact</label><br>
+            <input type="telephone" placeholder="Contact" required name="contact"><br><br>
+            <label for password>Password</label><br>
+            <input type="password" placeholder="Password" required name="password"><br><br>
+            <button type="submit">Create Account</button>
+        </form>
+
+        </field </body>
+
+</html>
